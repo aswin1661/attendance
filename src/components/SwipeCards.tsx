@@ -250,6 +250,7 @@ function CardContent({ card }: { card: Card }) {
         sizes="(max-width: 768px) 100vw, 320px"
         className="object-cover"
         priority
+        unoptimized
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
       <div className="absolute bottom-0 p-4 text-white z-10">
